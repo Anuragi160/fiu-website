@@ -5,7 +5,7 @@ export default function Grammr() {
     <div className="w-24 xs:w-32 sm:w-40 md:w-52 lg:w-60 xl:w-[300px] max-w-full h-auto flex items-center">
       
       <Image
-        src="/images/Grammr-logo.png"
+        src="/images/grammr.png"
         alt="GRAMMR Logo"
         width={350}
         height={250}
