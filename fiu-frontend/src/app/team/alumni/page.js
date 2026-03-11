@@ -1,34 +1,9 @@
 'use client'
 
 import Image from "next/image";
+import { alumniMembers } from "@/app/data/teamMembers";
 
-const alumniMembers = [
-  {
-    name: "Student 1",
-    role: "MS Graduate, Class of 2023",
-    photo: "/images/pp-template.jpg",
-    position: "Data Scientist at Amazon",
-    linkedIn: "https://www.linkedin.com/in/ayesha-singh-alumni/",
-    testimonial: "My time at the lab provided me with valuable hands-on research experience, challenging me to think creatively and collaborate with brilliant minds. The mentorship and support I received helped shape my path to success."
-  },
-  {
-    name: "Student 2",
-    role: "BS Graduate, Class of 2022",
-    photo: "/images/pp-template.jpg",
-    position: "Software Engineer at Google",
-    linkedIn: "https://www.linkedin.com/in/miguelrivera-alumni/",
-    testimonial: "Being a part of this team set the foundation for my professional growth. I learned not only technical concepts but also the importance of teamwork and perseverance. The skills I developed here have been crucial in my career."
-  },
-  {
-    name: "Student 3",
-    role: "PhD Graduate, Class of 2021",
-    photo: "/images/pp-template.jpg",
-    position: "Assistant Professor at University of California",
-    linkedIn: "https://www.linkedin.com/in/sarakim-alumni/",
-    testimonial: "The collaborative environment and innovative research in the group gave me the confidence and skills needed to pursue an academic career. I’m grateful for the guidance and lifelong connections I made during my time here."
-  },
-  // Add more alumni as needed
-];
+
 
 function AlumniCard({ member }) {
   return (
